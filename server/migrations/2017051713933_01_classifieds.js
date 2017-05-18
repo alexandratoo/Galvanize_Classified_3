@@ -5,8 +5,8 @@ exports.up = function(knex, Promise) {
     table.string('description', 255).notNullable()
     table.decimal('price').notNullable()
     table.string('item_image', 255).notNullable()
-    table.timestamp('created_at').notNullable().defaultTo(knex.raw('now()'));
-    table.timestamp('updated_at').notNullable().defaultTo(knex.raw('now()'));
+    table.timestamp('dateTime').notNullable().defaultTo(knex.raw('now()'));
+    table.timestamp('timeStamp').notNullable().defaultTo(knex.raw('now()'));
   })
 };
 
