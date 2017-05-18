@@ -5,7 +5,13 @@ body {
     width: 100%;
     margin: 0%;
     padding: 0%;
+
 }
+
+@media (max-width: 700px) {
+  img {
+    columns: 1
+  }
 .card-block {
     border-radius: 20px;
     padding-bottom: 30px;
@@ -16,9 +22,7 @@ body {
 a {
   color: #00B7FF;
 }
-.container-fluid {
-background-color: 'green';
-}
+
 h1 {
 font: 14px "Maven Pro", Helvetica, sans-serif;
 }
