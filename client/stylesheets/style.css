@@ -1,8 +1,32 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Maven Pro", Helvetica, sans-serif;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
 }
-
+.card-block {
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: hsla(360, 100%, 100%, 0.5);
+}
 a {
   color: #00B7FF;
+}
+.container-fluid {
+background-color: 'green';
+}
+h1 {
+font: 14px "Maven Pro", Helvetica, sans-serif;
+}
+footer {
+  background-color: #133929;
+    position:static;
+    bottom: 0;
+    opacity: .9;
+    width: 100%;
+    overflow: hidden;
 }
